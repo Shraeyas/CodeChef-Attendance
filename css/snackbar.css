@@ -1,0 +1,27 @@
+#snackbar 
+{
+    visibility: visible;
+    min-width: 50px;
+	width: 50px;
+	height:50px;
+    
+    background-color: #FF0000;
+    color: #FFFFFF;
+    text-align: center;
+    
+	
+	padding-top:14px;
+	padding-left:14px;
+    position: fixed;
+    z-index: 1;
+    right: 5%;
+    bottom: 50px;
+    font-size: 50px;
+	font-family: Cantarell;
+	border-radius:50%;
+	
+	
+}
+
+
+

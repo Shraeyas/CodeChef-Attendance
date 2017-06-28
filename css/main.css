@@ -1,0 +1,389 @@
+.logo
+{
+	height:80px;
+	width:210px;
+	margin:30px;
+	
+}
+
+body
+{
+	background-color:#FFFFFF;
+}
+
+.user_name
+{
+	margin-top:5px;
+	position:absolute;
+	right:35px;
+	background-color:transparent;
+	font-size:17px;
+	border-style:none;
+	font-family: Cantarell;
+	color:#000000;
+	font-weight:;
+}
+
+.header_button
+{
+	float:right;
+	margin-top:40px;
+	height:50px;
+	margin-right:10px;
+	background-color:transparent;
+	font-size:15px;
+	border-style:none;
+	font-family: Cantarell;
+	color:#000000;
+	font-weight:;
+}
+
+.header
+{
+	height:200px;
+		
+	
+}
+
+body
+{
+	min-width:1281px;
+}
+
+.head_label
+{
+	font-family: Cantarell;
+	margin-left:140px;
+	margin-top:50px;
+	font-size:25px;	 
+}
+
+
+
+.head_label_user
+{
+	font-family: Cantarell;
+	margin-left:540px;
+	margin-top:70px;
+	font-size:25px;	 
+}
+
+.material-icons
+{
+	margin-left:;
+	margin-right:20px;
+	vertical-align:-20%;
+}
+
+
+.foot_label
+{
+	margin-left:140px
+}
+
+.signup_div
+{
+	margin-left:140px;
+}
+
+.form_input
+{
+	width:250px;
+	border-radius:4px;
+	height:30px;
+	margin-bottom:10px;
+	border:solid;	
+	border-width:1px;
+	border-left:none;
+	border-top:none;
+	border-right:none;
+	padding-left:5px;
+}
+
+.form_label
+{
+	font-family: Cantarell;
+	font-size:15px;
+	color:#000000;
+	width:150px;
+	float:left;
+	margin-top:5px;
+	font-weight:bold
+}
+
+#formic
+{
+	margin-right:0;
+	vertical-align:-40%;
+	color:A6E22E;
+}	
+
+.signup_but
+{
+	border:none;
+	border-radius:3px;
+	font-size:12px;
+	width:100px;
+	margin-top:30px;
+}
+
+button
+{
+	height:25px;
+	border:none;
+	border-radius:3px;
+	font-size:12px;
+	background-color:#FFCB6B;
+	cursor: pointer;
+}
+
+.compare
+{
+	width:300px;
+	margin-left:480px;
+	height:40px;
+	font-size:15px;
+}
+
+.upvote
+{
+	color:#A6E22E;
+}
+
+.downvote
+{
+	color:#C5BDE4;
+}
+
+#votebutton
+{
+	background-color:transparent;
+}
+
+.input_submit
+{
+	border-radius:3px;
+	margin-left:140px;
+	width:470px;
+	height:40px;
+	font-size:20px;
+	font-family: Cantarell;
+	color:grey;
+	
+}
+
+.user_button
+{
+	background-color:transparent;
+	color:#FFFFFF;
+}
+
+
+#formic_suc
+{
+	color:#A6E22E;
+	margin-left:140px;
+	margin-top:20px;
+	margin-bottom:10px;
+	font-size:100px
+}
+
+
+#formic_err
+{
+	color:#FB9A4B;
+	margin-left:140px;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+.contestlist
+{
+	margin-top:50px;
+	margin-left:140px;
+	color:#000000;
+	font-family: Cantarell;
+}
+
+.contestlist_head
+{
+	padding-left:20px;
+	padding-right:20px;
+	height:70px;
+	width:200px;
+	text-align:left;
+	background-color:#242E33;
+	font-size:13px;
+	color:#FFFFFF;
+	
+}
+
+
+.contestlist_data
+{
+	text-align:left;
+	height:40px;
+	font-size:13px;
+	padding-left:20px;
+}
+
+a
+{
+	color:#000000;
+	text-decoration:none;
+	font-family: Cantarell;
+}
+
+
+
+.success
+{
+	color:#A6E22E;
+	font-size:16px;
+	padding:20px;
+	margin-left:120px;
+	font-weight:bold;
+	font-family: Cantarell;
+	border:solid;
+	border-color:#A6E22E;
+	border-width:1px;
+	border-radius:5px;
+	margin-top:10px;
+}
+
+.error
+{
+	color:#FB9A4B;
+	font-size:16px;
+	padding:20px;
+	margin-left:120px;
+	font-weight:bold;
+	font-family: Cantarell;
+	border:solid;
+	border-color:#FB9A4B;
+	border-width:1px;
+	border-radius:5px;
+	margin-top:10px;
+}
+
+.search_but
+{
+	margin-top:30px;
+	margin-left:140px;
+	width:100px;
+	height:30px;
+	
+}
+
+.description
+{
+	position:absolute;
+	top:318px;
+	left:900px;
+	
+	float:right;
+	font-family: Cantarell;
+	color:#FFCB6B;
+	font-size:17px;
+	font-weight:bold;
+}
+
+.description_label
+{
+	margin-left:30px; 	
+	margin-right:30px;
+	font-size:15px;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+
+.description_label_right
+{
+	margin-left:29px;
+	margin-top:4px;
+	padding:10px;
+	font-size:13px;
+	color:#C8D740;
+}
+
+
+.about_div
+{
+	color:#FFFFFF;
+	font-family: Cantarell;
+	margin-top:50px;
+	margin-left:140px;
+}
+
+#about_img
+{
+	vertical-align:-25%;
+}
+
+td
+{
+	height:30px;
+	width:150px;
+	padding:20px;
+}
+
+th
+{
+	text-align:left;
+	padding:20px;
+	border:solid;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	
+	border-width:1px;
+}
+
+.table-success
+{
+	background-color:#DFF0D8;
+}
+
+
+.small_image
+{
+	height:20px;
+	width:20px;
+	padding-left:10px;
+	vertical-align:-20%;
+}
+
+.dropdown img
+{
+	padding-right:5px;
+}
+
+.dropdown
+{
+	
+	width:100px;
+	min-width:120px;
+	height:270px;
+	min-height:270px;
+	position:fixed;
+	top:300;
+	left:1200;
+}
+
+.footer
+{
+	margin-top:200px;
+}
+
+.counter
+{
+	padding:10px;
+	float:left;
+}
+
+.person
+{
+	float:right;
+	padding:10px
+}

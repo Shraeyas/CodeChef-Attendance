@@ -1,0 +1,109 @@
+<!--<a style="padding:5px" href = "https://databread.in"><button style="border:none;border-radius:3px;font-size:12px;background-color:#FFCB6B;">Back to Home</button></a>-->
+
+	<div id="fb-root"></div>
+	
+	<script>
+		(function(d, s, id) 
+		{
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9";
+			  fjs.parentNode.insertBefore(js, fjs);
+		}
+		
+		(document, 'script', 'facebook-jssdk'));
+	</script>
+		
+	<script async defer src="https://buttons.github.io/buttons.js"></script>
+		
+	<title>
+
+		<?php if($_GET['user']!='')echo $_GET['user']." | "; ?>Attendance
+
+	</title>
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/snackbar.css">
+	<link rel="shortcut icon" type="image/x-icon" href="b.jpg">
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Cantarell" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<div class="header">
+		
+		<div>
+			
+			<a href = "https://discuss.codechef.com/questions/97650/codechef-attendance">
+
+				<img class="logo"  src = "images/logo.png">
+				
+		  
+			</a>	
+		<hr>	  
+		</div>
+		  
+	</div>
+		
+	<div id="snackbar">
+	 
+		<i style="font-size:35px;" class="material-icons">favorite</i>
+	
+	</div>
+	
+	
+		<div class="dropdown">
+			
+			<p><a href="https://www.facebook.com/CodeChef-Attendance-284804738656484/"><img class="small_image" src = "images/fb.png">Facebook</a></p>
+			
+			
+			<p><a href="https://github.com/Shraeyas/CodeChef-Attendance"><img class="small_image" src = "images/gi.png">Github</a></p>
+			
+			<p><a href="https://bugchef.in"><img class="small_image" src = "images/bc.png">Bugchef</a></p>
+			
+			<p><a href="https://databread.in/"><img class="small_image" src = "images/b.jpg">Databread</a></p>
+			
+			<p><a href="https://www.linkedin.com/in/shraeyas/"><img class="small_image" src = "images/li.png">LinkedIn</a></p>
+	
+			
+			<p><a href="https://twitter.com/ShraeyasSingh"><img class="small_image" src = "images/tw.png">Twitter</a></p>
+	
+		  </div>
+	
+	
+	<script>
+	
+		$(".dropdown").hide();
+		
+		$("#snackbar").hover( 
+		
+			function()
+			{
+				$(".dropdown").show();
+			},
+			
+			function()
+			{
+				$(".dropdown").hide();
+			}
+		
+		);
+		
+		
+		$(".dropdown").hover( 
+		
+			function()
+			{
+				$(".dropdown").show();
+			},
+			
+			function()
+			{
+				$(".dropdown").hide();
+			}
+		
+		);
+	
+	</script>
+	<!--<button id="snakbar"><i style="font-size:35px;" class="material-icons">favorite</i></button>-->
+	
