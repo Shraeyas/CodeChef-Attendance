@@ -10,9 +10,9 @@ _______________________________
 _______________________________
 
 
-1 Install some apache server like ___xampp___ on your local machine.
+1 Install some apache server (___xampp___ on Windows or ___mamp___ for Mac) on your local machine.
 
-2 git clone this repository to the root of your server folder (htdocs folder).
+2 git clone this repository to the root of your server folder (htdocs folder or /var/www/html/).
 
 3 Simply open it on localhost server through any browser.
 
@@ -22,7 +22,7 @@ ___________________________________
    __On Your Web Host Service__
 ___________________________________
 
-1 git clone this repository and copy all the files to the public_html folder in your web host.
+1 git clone this repository and copy all the files to the public_html folder (/var/www/html/) in your web host.
 
 2 Done.
 
