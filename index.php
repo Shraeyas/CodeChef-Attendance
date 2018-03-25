@@ -1,7 +1,7 @@
 <?php
 
     ini_set('display_errors','off');
-	include('header.html');
+
 	//Create Dropdown
 
 	include("ext.php");
@@ -219,7 +219,9 @@
 
 	<head>
 
+<div style = "color : white;background-color : red;font-size : 17px; font-weight:bold;padding : 10px;"><a style = "color : white;" href = "https://databread.xyz">Check out Databread. Click Here</a></div>
 
+  <?php include('header.html'); ?>
 
 	</head>
 
