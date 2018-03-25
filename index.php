@@ -1,5 +1,6 @@
 <?php
 
+    ini_set('display_errors','off');
 	include('header.html');
 	//Create Dropdown
 	
@@ -30,7 +31,7 @@
 	  
       else
       {
-		//file_put_contents("0ac8ed98ce14ecdd93403b8f9978301b.txt", $_GET['user'].PHP_EOL, FILE_APPEND);
+		file_put_contents("0ac8ed98ce14ecdd93403b8f9978301b.txt", $_GET['user'].PHP_EOL, FILE_APPEND);
 		$html = file_get_contents("https://www.codechef.com/users/".$_GET['user']);
 		
 		  if(substr_count($html,  '<a class="button blue" href="/getting-started">')!=0)
@@ -272,7 +273,11 @@
       </body>
       
     
-      
+      <script type="text/javascript">
+var infolinks_pid = 3032702;
+var infolinks_wsid = 0;
+</script>
+<script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script>
       
     
 </html>

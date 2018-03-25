@@ -129,7 +129,9 @@ body
 
 button
 {
-	height:25px;
+    margin-top:25px;
+    width:100px;
+	height:30px;
 	border:none;
 	border-radius:3px;
 	font-size:12px;
@@ -359,6 +361,7 @@ th
 	padding-right:5px;
 }
 
+
 .dropdown
 {
 	
@@ -366,14 +369,17 @@ th
 	min-width:120px;
 	height:270px;
 	min-height:270px;
-	position:fixed;
-	top:300;
-	left:1200;
+	position: fixed;
+    z-index: 1;
+    right: 2%;
+    bottom: 100px;
 }
+
 
 .footer
 {
 	margin-top:200px;
+	font-family: Cantarell;
 }
 
 .counter
