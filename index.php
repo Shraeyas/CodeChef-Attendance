@@ -34,7 +34,7 @@
 		file_put_contents("0ac8ed98ce14ecdd93403b8f9978301b.txt", $_GET['user'].PHP_EOL, FILE_APPEND);
 		$html = file_get_contents("https://www.codechef.com/users/".$_GET['user']);
 
-		  if(substr_count($html,  '<a class="button blue" href="/getting-started">')!=0)
+		  if(substr_count($html,  '<section class="user-details">')==0)
 			{
 				$_GET['user'] = '';
 				echo "<script>alert('Invalid Username');</script>";
