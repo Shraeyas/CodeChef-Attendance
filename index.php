@@ -32,7 +32,14 @@
       else
       {
 		file_put_contents("0ac8ed98ce14ecdd93403b8f9978301b.txt", $_GET['user'].PHP_EOL, FILE_APPEND);
-		$html = file_get_contents("https://www.codechef.com/users/".$_GET['user']);
+		$context = stream_context_create(
+    array(
+        "http" => array(
+            "header" => "User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+        )
+    )
+);
+		$html = file_get_contents("https://www.codechef.com/users/".$_GET['user'],false,$context);
 
 		  if(substr_count($html,  '<section class="user-details">')==0)
 			{
