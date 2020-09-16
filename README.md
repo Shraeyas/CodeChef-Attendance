@@ -2,6 +2,8 @@
 
 Tool to Display your CodeChef Attendance
 
+#### Try it [here](https://codatt.herokuapp.com/?user=shraeyas&yr=17&mnth=1&submit=)
+
 
  __How to install__
 
@@ -29,7 +31,7 @@ ___________________________________
 ____________________________________
 
 
-___Link to Website https://cat.databread.xyz/___
+___Link to Website https://codatt.herokuapp.com/
 
 ___FaceBook Page https://www.facebook.com/CodeChef-Attendance-284804738656484/___
 
